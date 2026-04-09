@@ -1,0 +1,11 @@
+// Declaring styles for the application
+$font-color: #333; // Declaring a variable
+
+//Using it throughout the stylesheet after declaration
+body {
+  font-family: Arial, sans-serif;
+  color: $font-color; // Using the variable
+  background-color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+}
